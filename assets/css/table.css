@@ -1,0 +1,46 @@
+table.grid{
+    width: 100%;
+    border-collapse: collapse; border-spacing: 0;
+}
+table.grid thead tr {
+    height: 18px;
+    color: white;
+    background: black;
+    font-family: "Arial";
+    font-size: 11px;
+}
+table.grid thead tr th{
+    border: 1px solid #e6e6e6;
+}
+table.grid tbody tr:nth-child(even){background: #FFF}
+table.grid tbody tr:nth-child(odd){background: aliceblue}
+table.grid tbody tr:hover{background: seashell}
+table.grid tbody tr td{
+    border: 1px solid #e6e6e6;
+}
+table.grid tbody tr td label{
+    font-family: "Arial";
+    font-size: 11px;
+    color: dimgrey;
+}
+table.grid tbody tr td input{
+    width: 95%;
+    background: transparent;
+    border-width: 0px;
+    font-family: "Arial";
+    font-size: 11px;
+}
+table.grid tbody tr td select{
+    border: 1px solid #ccc;
+    color: #4b96ed;
+    font-family: "Arial";
+    font-size: 12px;
+    width: 98%;
+}
+table.grid tbody tr td a{
+    font-family: "Arial";
+    font-size: 11px;
+    color: dimgrey;
+    cursor: pointer;
+    text-decoration: none;
+}

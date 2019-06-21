@@ -1,0 +1,45 @@
+
+label.custom{
+    font: bold 12px arial;
+    color: #666666;
+    margin-bottom: 0px;
+}
+label.validate{
+    font: bold 12px arial;
+    color: darkred;
+    margin-bottom: 0px;
+}
+input.custom{
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0 !important;
+    color: #555;        
+    border: 1px solid #d2d6de;
+    display: block;
+    font-size: 14px;
+    height: 28px;
+    line-height: 1.42857;
+    padding: 0px 6px;
+    width: 100%;
+}
+input.custom::-moz-placeholder {
+    color: #bbb;
+    opacity: 1;
+    font-size: 12px;
+
+}
+label.labelGrid{
+    font-weight: normal;
+}
+select.custom{
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 14px;
+    height: 28px;
+    line-height: 1.42857;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
